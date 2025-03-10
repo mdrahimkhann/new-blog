@@ -9,7 +9,7 @@ const Header = () => {
 
 
 <div className='navber-brand'>
-   <Link to='/'><Link to='/'>  <img  src="https://kms.zaatarwzeit.net/content/uploads/corporatepage/160405103436989~logoWhite.png" alt="Placeholder" className="imag-logo shadow-lg"/></Link></Link>
+   <Link to='SignIn'><Link to='SignIn'>  <img className="rounded-sm" src="https://media.licdn.com/dms/image/v2/D4E03AQECsodJ_cBUzw/profile-displayphoto-shrink_200_200/B4EZV.3Qw7HMAY-/0/1741590171290?e=1747267200&v=beta&t=Wj7P_IJxXPURyTxlyDyqmal1DIaN62FPB1QZWlj-Amw" alt="Placeholder" className="imag-logo shadow-lg"/></Link></Link>
  </div>
 
 
