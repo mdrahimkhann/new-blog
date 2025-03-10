@@ -1,0 +1,419 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navber{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#333;
+  padding: 10px 20px;
+  color: white;
+  justify-content: space-between;
+  }
+  .navber-brand a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  .navber_links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navber_links li{
+  margin: 0 10px;
+  }
+  
+  .navber_links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .navber_links a:hover{
+  text-decoration: underline;
+  
+  }
+  
+
+/* this is my sing start here  */
+.signin-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color:#f4f4f4;
+}
+singnin-contactner h2{
+  color: #333;
+  margin: 20px;
+}
+.singnin-from{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background:white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.singnin-from input{
+margin-bottom: 15px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 1em;
+}
+.singnin-from:focus{ 
+border-color: #4caf50;
+outline: none;
+}
+
+.singnin-from button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 2em;
+  transition: background-color 0.3s;
+
+}
+.singnin-from button:hover{
+  background-color: #8beb8e;
+  border-radius: 5px;
+
+
+}
+/* THIS IS MY SIGNIN EN END HERE */
+
+
+
+/* THIS IS MY PROFILE START  HERE */
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color: #a58888;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 500px;
+margin: 50px auto;
+background-color: white;
+}
+
+
+.profile-container h2{
+  color: #8beb8e;
+  border-radius: 20px;
+}
+
+.profile-info{
+  width: 100%;
+}
+.profile-info p{
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.profile-lable{
+  font-weight: bold;
+  color: #4caf50;
+}
+
+
+
+
+
+/* THIS IS MY PROFILE START  HERE */
+
+
+
+
+
+
+
+
+
+
+/* THSI IS MY SINGUP FROM START HERE ****************************************************************************/
+/* this is my sing start here  */
+.signin-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  /* background-image: url('https://wallpapercave.com/wp/wp3837763.jpg'); */
+  text-align: center;
+}
+.logo-form{
+  background-color: #ccc;
+  height: 20px;
+  width: 200px;
+  font-size: 2.4rem;
+}
+
+.singnin-from{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background:white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.singnin-from input{
+margin-bottom: 15px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 1em;
+}
+.singnin-from:focus{ 
+border-color: #4caf50;
+outline: none;
+}
+
+.singnin-from button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 2em;
+  transition: background-color 0.3s;
+
+}
+.singnin-from button:hover{
+  background-color: #8beb8e;
+  border-radius: 5px;
+
+
+
+
+}
+/* THIS IS MY SIGNIN EN END HERE */
+
+.sigin-h1{
+  font-size: 2.2rem;
+   font-weight:bold;
+}
+
+/* THSI IS MY SINGUP FROM END HERE */
+
+
+/* THIS IS MY PROFILE END HERE  */
+
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color: #a58888;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 500px;
+margin: 50px auto;
+background-color: white;
+}
+
+
+.profile-container h2{
+  color: #8beb8e;
+  border-radius: 20px;
+}
+
+.profile-info{
+  width: 100%;
+}
+.profile-info p{
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.profile-label{
+  font-weight: bold;
+  color: #4caf50;
+}
+
+
+
+
+
+/* THIS IS MY PROFILE START  HERE */
+
+/* THIS IS MY PRODUCTS DESING START HERE//////////////////////////////////////////////////////////  */
+.product-container{
+  padding: 20px;
+}
+.loding-p{
+  text-align: center;
+  font-size: 1.1rem;
+}
+.product-container h1{
+text-align: center;
+color: #4caf50;
+align-items: center;
+margin-bottom: 20px;
+}
+.products{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+}
+.product{
+text-align: center;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+transition: transform 0.3s, box-chadow 0.3s;
+}
+.product:hover{
+transform: translateY(-5px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.product h2{
+color: #333;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.product p{
+color: #333;
+margin: 5px 0;
+}
+.product__link{
+text-align: center;
+align-items: center;
+display: inline-block;
+margin-top: 10px;
+color: #4caf50;
+font-weight: bold;
+text-decoration: none;
+}
+.product__link:hover{
+text-decoration: underline;
+}
+
+.product__img{
+width: 100%;
+height: 10rem;
+}
+
+
+
+
+
+
+.product-detaile{
+padding: 20px;
+background-color: #f4f4f4;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+margin: 20px auto;
+} 
+
+
+.product-detaile{
+padding: 20px;
+background-color: #f4f4f4;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+max-width: 600px;
+margin: 20px auto;
+}
+.product-detaile h1{
+color: #8beb8e;
+text-align: center;
+margin-bottom: 20px;
+}
+.product-detaile-title{
+color: #8beb8e;
+
+}
+
+.product-detali__article{
+background-color: #fff;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+.product__d-images{
+width: 100%;
+height: auto;
+object-fit: contain;
+margin-bottom: 20px;
+}
+
+
+/* THIS IS MY PRODUCTS DESING END HERE//////////////////////////////////////////////////////////  */
+
+/* THIS IS MY ERROR STRT HERE */
+.error-page{
+background-color: #ededed;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+font-weight: bolder;
+font-size: 1.2rem;
+}
+.product2__link{
+padding-left: 20PX;
+font-weight: bold;
+font-size: 2.2rem;
+}
+/* THIS IS MY ERROR END HERE */
+
+/* THIS SI MY FOOTER HSTART HERE */
+
+.footer{
+  background-color: gray;
+  color: white;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.fill-current{
+  margin: 10px;
+  color: white;
+}
+
+.nav grid{
+  text-decoration: beige;
+  margin: 10px;
+}
+
+
+
+.profile-h1{
+font-size: 2rem;
+  color: rgb(15, 15, 15);
+  font-weight: bolder
+}
+
+
+
+.imag-logo{
+  width: 100%;
+  height: 100px;
+  border: 1px solid rgb(240, 227, 227);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 7px;
+}
