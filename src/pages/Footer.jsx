@@ -1,25 +1,36 @@
+import { Facebook, Twitter, Instagram, Github } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Welcome to  Footer Page</h1>
-    </div>
+    <footer className="bg-gray-900 text-white py-6">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+        {/* Logo or Brand Name */}
+        <h2 className="text-xl font-semibold">Goyalkhala</h2>
+
+        {/* Social Icons */}
+        <div className="flex space-x-4 mt-4 md:mt-0">
+          <a href="#" className="hover:text-blue-800 transition text-blue-500 ">
+            <Facebook size={24} />
+          </a>
+          <a href="#" className="hover:text-sky-800 transition text-sky-400">
+            <Twitter size={24} />
+          </a>
+          <a href="#" className="hover:text-pink-700 transition text-pink-500">
+            <Instagram size={24} />
+          </a>
+          <a href="#" className="hover:text-gray-500 transition text-gray-400">
+            <Github size={24} />
+          </a>
+        </div>
+
+        {/* Copyright */}
+        <p className="text-sm mt-4 md:mt-0">© {new Date().getFullYear()} YourBrand. All copyright by Goyalkhala.</p>
+      </div>
+    </footer>
   );
 };
 
 export default Footer;
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
