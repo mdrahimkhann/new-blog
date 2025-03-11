@@ -9,6 +9,8 @@ import Footer from './pages/Footer'
 
 
 
+
+
 const App = () => {
   return (
     <div>
@@ -17,6 +19,7 @@ const App = () => {
       <Contact/>
       <Profile/>
       <About/>
+
       <Products/>
       <Signin/>
       <Footer/>
