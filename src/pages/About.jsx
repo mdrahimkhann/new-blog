@@ -8,16 +8,16 @@ const About = () => {
 
               <div className="sm:flex  justify-between  text-center py-5">
 
-                  <div className="mt-4">
-                   <a href="#" className="text-white"><span className="text-[#f65023] font-bold m-1 text-2xl">G</span>OYAL KHA <span className="text-[#f65023] font-bold text-2xl">LA</span></a>
+                  <div className="mt-2 md-10">
+                   <a href="#" className="text-white mt-5 md-5"><span className="text-[#f65023] font-bold m-1 text-3xl">G</span>OYAL KHA <span className="text-[#f65023] font-bold text-2xl">LA</span></a>
                   </div>
 
                   <ul className="sm:flex text-2xl text-white border-t sm:border-none">
-                    <li className="mt-4 sm:mt-0"><a href="#" className="p-3 text-[#f65023]">Home</a></li>
-                    <li><a href="#" className="p-3 hover:text-[#f65023]">Products</a></li>
-                    <li><a href="#" className=" p-3 hover:text-[#f65023]">Blogs</a></li>
-                    <li><a href="#" className="p-3 hover:text-[#f65023]">Protfloio</a></li>
-                    <li><a href="#" className=" p-3 hover:text-[#f65023]">Contact</a></li>
+                    <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="#" className="p-3 text-[#f65023]">Home</a></li>
+                    <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="#" className="p-3 sm:order-1 hover:text-[#f65023]">Products</a></li>
+                    <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="#" className=" p-3 hover:text-[#f65023]">Blogs</a></li>
+                    <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="#" className="p-3 hover:text-[#f65023]">Protfloio</a></li>
+                    <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="#" className=" p-3 hover:text-[#f65023]">Contact</a></li>
               
 
                   </ul>
@@ -30,7 +30,55 @@ const About = () => {
 
    {/* THIS IS MY HERO SECTION START HERE */}
        <div >
+       <div className="min-h-screen bg-gray-100">
+      {/* Hero Section */}
+      <header className="bg-blue-600 text-white text-center py-16">
+        <h1 className="text-4xl font-bold">Welcome to Our Website</h1>
+        <p className="mt-4 text-lg">Build beautiful web apps with ease</p>
+        <button className="mt-6 px-6 py-2 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-200 transition">
+          Get Started
+        </button>
+      </header>
 
+      {/* Features Section */}
+      <section className="py-12 px-6 grid md:grid-cols-3 gap-6 text-center">
+        <div className="p-6 bg-white shadow rounded-lg">
+          <h2 className="text-xl font-semibold">🚀 Fast Performance</h2>
+          <p className="text-gray-600 mt-2">Optimized for speed and efficiency.</p>
+        </div>
+        <div className="p-6 bg-white shadow rounded-lg">
+          <h2 className="text-xl font-semibold">🎨 Modern Design</h2>
+          <p className="text-gray-600 mt-2">Sleek and intuitive user experience.</p>
+        </div>
+        <div className="p-6 bg-white shadow rounded-lg">
+          <h2 className="text-xl font-semibold">🔒 Secure & Reliable</h2>
+          <p className="text-gray-600 mt-2">Built with best security practices.</p>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="bg-gray-200 py-12 px-6 text-center">
+        <h2 className="text-2xl font-bold">What Our Users Say</h2>
+        <p className="text-gray-700 mt-2">This website is amazing! Super easy to use</p>
+        <p className="text-gray-700 mt-2">Best experience I ve ever had </p>
+      </section>
+
+   
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* 
 
            <div className="container sm:flex  text-white mx-auto justify-around items-center text-center   h-[80vh] ">
             <div>
@@ -43,7 +91,7 @@ const About = () => {
                 <img className="animate-pulse " src="https://th.bing.com/th/id/OIP.twwWP_emayn8n8HPrgBD8AHaHa?w=189&h=189&c=7&r=0&o=5&pid=1.7" alt="" />
             </div>
 
-           </div>
+           </div> */}
 
 
 
