@@ -41,17 +41,19 @@ const About = () => {
       </header>
 
       {/* Features Section */}
-      <section className="py-12 px-6 grid md:grid-cols-3 gap-6 text-center">
-        <div className="p-6 bg-white shadow rounded-lg">
-          <h2 className="text-xl font-semibold">🚀 Fast Performance</h2>
+      <section className="py-12 px-6 grid md:grid-cols-3 gap-6 text-center items-center">
+
+        <div className="p-6 bg-white shadow rounded-lg  text-center">
+          <h2 className="text-xl font-semibold"> Fast Performance</h2>
           <p className="text-gray-600 mt-2">Optimized for speed and efficiency.</p>
         </div>
-        <div className="p-6 bg-white shadow rounded-lg">
-          <h2 className="text-xl font-semibold">🎨 Modern Design</h2>
+
+        <div className="p-6 bg-white shadow rounded-lg text-center">
+          <h2 className="text-xl font-semibold text-center">Design</h2>
           <p className="text-gray-600 mt-2">Sleek and intuitive user experience.</p>
         </div>
         <div className="p-6 bg-white shadow rounded-lg">
-          <h2 className="text-xl font-semibold">🔒 Secure & Reliable</h2>
+          <h2 className="text-xl font-semibold"> Secure & Reliable</h2>
           <p className="text-gray-600 mt-2">Built with best security practices.</p>
         </div>
       </section>
