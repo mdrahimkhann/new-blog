@@ -2,9 +2,9 @@
 
 const About = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 h-screen w-screen text-center items-center">
+    <div className="grid lg:grid-cols-3 gap-4 h-screen w-screen text-center items-center  sm:p-5">
      
-      <div className='bg-green-300 min-h-96'>
+      <div className='bg-green-300 min-h-96 text-center items-center'>
         
         <h1>ACHINEVEMENT</h1>
         <p>Lecturer of SEO Department 10/11/2017-06/04/2018
