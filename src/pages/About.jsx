@@ -4,9 +4,10 @@ const About = () => {
   return (
     <div className="grid lg:grid-cols-3 gap-4 h-screen w-screen text-center items-center  sm:p-5">
      
-      <div className='bg-green-300 min-h-96 text-center items-center'>
-        
-        <h1>ACHINEVEMENT</h1>
+    <div>
+    <div className='border min-h-96  bg-slate-400 '>
+      <div className=" items-center justify-center text-center m-20 text-white rounded-md">
+      <h1 className="">ACHINEVEMENT</h1>
         <p>Lecturer of SEO Department 10/11/2017-06/04/2018
          Matton dikoni College
          Matton, Dikony Road, (Lebanon)</p>
@@ -23,10 +24,14 @@ const About = () => {
 1500 videoson 17 different computer JUbject</p>
         
       </div>
+        
+    
+      </div>
+    </div>
 
 
 
-      <div className='bg-green-300 min-h-96 grid grid-cols-1 lg:grid-cols-1'> 
+      <div className='bg-green-300 min-h-96 grid grid-cols-1 lg:grid-cols-1 rounded-md'> 
         <h1>CONTACT ME</h1>
         <form action="">
           <input type="text" className="border-2 w-52 m-2 rounded-md border-fuchsia-700 text-center hover:shadow-lg" placeholder="Enter Your Email"/><br />
@@ -42,7 +47,7 @@ const About = () => {
         </form>
 
       </div>
-      <div className="bg-green-300 min-h-96 w-30  hover:shadow-yellow-950">
+      <div className="bg-green-300 min-h-96 w-30  hover:shadow-yellow-950 rounded-md">
         <h1>MORE TO WAYA CONTACT</h1>
         <button>Click for Location</button>
         

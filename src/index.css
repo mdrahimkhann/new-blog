@@ -28,3 +28,50 @@ align-items: center;
 
 
 }
+
+
+
+
+
+.card {
+  width: 250px;
+  background: #f8f9fa;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card .content {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+}
+
+.card.expanded {
+  background: #e9ecef;
+  transform: scale(1.05);
+}
+
+.card.expanded .content {
+  opacity: 1;
+  max-height: 100px;
+}
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}

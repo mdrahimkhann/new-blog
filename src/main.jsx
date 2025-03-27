@@ -16,6 +16,7 @@ import Profile from'./pages/Profile'
 import About from'./pages/About'
 import Products from'./pages/Products'
 import Signin from'./pages/Signin'
+import Result from './pages/Result'
 
 
 
@@ -55,6 +56,11 @@ const router = createBrowserRouter([
       {
         path: "/About",
         element:<About/>,
+      },
+   
+      {
+        path: "/Result",
+        element:<Result/>,
       },
    
    

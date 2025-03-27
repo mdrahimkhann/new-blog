@@ -1,9 +1,16 @@
 import { Facebook, Twitter, Instagram, Github } from "lucide-react";
+import { useEffect } from 'react';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Footer = () => {
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   return (
-    <footer className="bg-gray-900 text-white py-6">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+    <footer className="bg-gray-900 text-white py-6" data-aos="zoom-in">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between" >
         {/* Logo or Brand Name */}
         <h2 className="text-xl font-semibold">Goyalkhala</h2>
 

@@ -1,8 +1,10 @@
 import { Outlet } from "react-router-dom";
+import Footer from "./Footer";
 
 
 const Header = () => {
     return (
+      <>
         <div>
                  <nav className="bg-gray-600 shadow-xl sticky top-0 z-10 w-screen">
            <div className="container mx-auto">
@@ -18,7 +20,7 @@ const Header = () => {
                     <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="Contact" className="p-3  hover:text-[#f65023]">Contact</a></li>
                     <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="About" className=" p-3 hover:text-[#f65023]">About</a></li>
                     <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="Profile" className="p-3 hover:text-[#f65023]">Protfloio</a></li>
-                    <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="Result" className=" p-3 hover:text-[#f65023]">Contact</a></li>
+                    <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="Result" className=" p-3 hover:text-[#f65023]">Result</a></li>
                     <li className="border border-fuchsia-300 lg:border-none m-3 rounded-md hover:border-fuchsia-600"><a href="SignIn" className=" p-3 hover:text-[#f65023]">SignIn</a></li>
               
 
@@ -36,6 +38,11 @@ const Header = () => {
 
            <Outlet></Outlet>
         </div>
+
+      
+      
+      <Footer></Footer>
+      </>
     );
 };
 

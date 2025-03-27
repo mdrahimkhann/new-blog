@@ -5,7 +5,10 @@ import Profile from'./pages/Profile'
 import About from'./pages/About'
 import Products from'./pages/Products'
 import Signin from'./pages/Signin'
-import Footer from './pages/Footer'
+
+import Result from './pages/Result'
+
+
 
 
 
@@ -19,10 +22,10 @@ const App = () => {
       <Contact/>
       <Profile/>
       <About/>
-
+      <Result/>
       <Products/>
       <Signin/>
-      <Footer/>
+   
     </div>
   );
 };
